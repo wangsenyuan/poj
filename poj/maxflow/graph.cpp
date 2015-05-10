@@ -16,7 +16,7 @@ struct edge {
 };
 
 const int MAX_V = 100;
-const int INF = 1 << 18;
+const int INF = 1 << 30;
 std::vector<edge> G[MAX_V];
 int level[MAX_V];
 
