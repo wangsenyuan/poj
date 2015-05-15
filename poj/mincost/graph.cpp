@@ -22,7 +22,7 @@ struct edge {
 	int to, cap, cost, rev;
 };
 
-const int MAX_V = 1 << 10;
+const int MAX_V = 3000;
 const int INF = 1 << 20;
 int V; //顶点数
 vector<edge> G[MAX_V];  //图的邻接表表示
@@ -32,6 +32,9 @@ int prevv[MAX_V], preve[MAX_V]; //最短路中的前驱结点和对应的边；
 
 void init_graph(int _V) {
 	V = _V;
+	for(int i = 0; i < V; i++) {
+		G[i].clear();
+	}
 }
 
 void add_edge(int from, int to, int cap, int cost) {

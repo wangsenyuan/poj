@@ -11,8 +11,8 @@
 using namespace std;
 
 namespace bipartite {
-const int MAX_V = 1 << 10;
 
+const int MAX_V = 1 << 10;
 vector<int> G[MAX_V];
 int match[MAX_V];
 bool used[MAX_V];
