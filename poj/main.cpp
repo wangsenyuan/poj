@@ -15,6 +15,7 @@
 #include "p3680/p3680.h"
 #include "p1127/p1127.h"
 #include "p2932/p2932.h"
+#include "p2187/p2187.h"
 int main(void) {
 //	solve3041();
 //	p3057::solve();
@@ -25,7 +26,8 @@ int main(void) {
 //	p3686::solve();
 //	p3680::solve();
 //	p1127::solve();
-	p2932::solve();
+//	p2932::solve();
+	p2187::solve();
 	return 0;
 }
 
