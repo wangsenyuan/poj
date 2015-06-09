@@ -21,6 +21,7 @@
 #include "p1704/p1704.h"
 #include "p2311/p2311.h"
 #include "p3683/p3683.h"
+#include "p2559/p2559.h"
 int main(void) {
 //	solve3041();
 //	p3057::solve();
@@ -37,7 +38,8 @@ int main(void) {
 //	p2348::solve();
 //	p1704::solve();
 //	p2311::solve();
-	p3683::solve();
+//	p3683::solve();
+	p2559::solve();
 	return 0;
 }
 
