@@ -26,6 +26,8 @@
 #include "p2676/p2676.h"
 #include "p1741/p1741.h"
 #include "p3691/p3691.h"
+#include "p3690/p3690.h"
+
 int main(void) {
 //	solve3041();
 //	p3057::solve();
@@ -47,7 +49,8 @@ int main(void) {
 //	p3709::solve();
 //	p2676::solve();
 //	p1741::solve();
-	p3691::solve();
+//	p3691::solve();
+	p3690::solve();
 	return 0;
 }
 
